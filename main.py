@@ -6,6 +6,7 @@ import pandas as pd
 from pandas import json_normalize
 from io import BytesIO
 import datetime
+import os
 
 def extract_text_from_pdf(file):
     pdf_reader = PyPDF2.PdfReader(file)
